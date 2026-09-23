@@ -25,3 +25,7 @@ $$\mathbb{P}(M>R_T)=\frac{1}{T} \quad (*)$$
  Infatti, se vale (*), la variabile **periodo di ritorno** che conta gli anni di attesa fino al superamento successivo si comporta come una geometrica (il successo corrisponde a :"l'estremo supera $R_T$" e la probabilità di successo è $\frac{1}{T}$) che è risaputo avere valore atteso pari a $\frac{1}{\mathbb{P}(successo)}=T$
  
  Essendo $\mathbb{P}(M>R_T)=1-F(R_T)=\frac{1}{T}$, e quindi $R_T=F^{-1}\left(1-\frac{1}{T}\right)$, si ottiene l'espressione del livello di ritorno $R_T$ come funzione inversa della fz. di distribuzione stimata degli estremi.
+ ## Struttura della repository
+
+ ## Come consultare il progetto
+Il Jupyter Notebook è il punto di accesso all'intera analisi e permette di approfondire gli aspetti metodologici e implementativi del progetto. Grazie all'integrazione di codice, commenti e risultati, è possibile seguire il processo di analisi nel dettaglio, compresi i vari accorgimenti operativi e le ottimizzazioni adottate.
