@@ -30,6 +30,7 @@ $$\mathbb{P}(M>R_T)=\frac{1}{T} \quad (*)$$
  Essendo $\mathbb{P}(M>R_T)=1-F(R_T)=\frac{1}{T}$, e quindi $R_T=F^{-1}\left(1-\frac{1}{T}\right)$, si ottiene l'espressione del livello di ritorno $R_T$ come funzione inversa della fz. di distribuzione stimata degli estremi.
  ![](immagini/return_period.png)
  ## Struttura della repository
-
+- `notebook/` : Jupyter Notebook contenente il codice del progetto.
+- `immagini/` : Selezione di immagini contenute in questo README.
  ## Come consultare il progetto
 Il Jupyter Notebook è il punto di accesso all'intera analisi e permette di approfondire gli aspetti metodologici e implementativi del progetto. Grazie all'integrazione di codice, commenti e risultati, è possibile seguire il processo di analisi nel dettaglio, compresi i vari accorgimenti operativi e le ottimizzazioni adottate.
